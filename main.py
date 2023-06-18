@@ -343,7 +343,7 @@ recipes = [
     },
     {
         "name": "Krem z dyni",
-        "ingredients": ["dynia", "cebula", "czosnek", "śmietana", "natka pietruszki"]
+        "ingredients": ["dynia", "cebula", "czosnek", "śmietana"]
     }
 ]
 imie = input("Hej, jak masz na imię? ")
