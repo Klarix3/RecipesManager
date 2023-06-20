@@ -43,6 +43,7 @@ def play_recipe_game():
 
         if guess.lower() == ingredient_to_remove.lower():
             print("Brawo! Zgadłeś!")
+            print(f"\nPrzepis na danie: {recipe['name']}")
         else:
             print(f"Niestety, to nieprawidłowa odpowiedź. Prawidłowy składnik to: {ingredient_to_remove}")
 
